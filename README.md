@@ -1,4 +1,4 @@
-Dockerized GOGS stack [![Build Status](https://travis-ci.org/lagun4ik/docker-docker-gogs.svg)](https://travis-ci.org/lagun4ik/docker-gogs)
+Dockerized GOGS stack
 --------------------------
 
 Docker-compose file for [gogs](http://gogs.io) server(a self-hosted git service).
