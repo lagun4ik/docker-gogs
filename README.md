@@ -11,6 +11,13 @@ Docker-compose file for [gogs](http://gogs.io) server(a self-hosted git service)
 docker-compose -p gogs  up -d
 ```
 
+## Mysql authorization
+```yml
+MYSQL_DATABASE: gogs
+MYSQL_USER: gogs
+MYSQL_PASSWORD: gogs
+```
+
 ## Show services
 
 ```bash
