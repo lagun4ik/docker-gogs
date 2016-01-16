@@ -1,4 +1,4 @@
-Dockerized GOGS stack
+Dockerized GOGS stack [![Build Status](https://travis-ci.org/lagun4ik/docker-gogs.svg?branch=master)](https://travis-ci.org/lagun4ik/docker-gogs)
 --------------------------
 
 Docker-compose file for [gogs](http://gogs.io) server(a self-hosted git service).
