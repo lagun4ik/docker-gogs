@@ -10,26 +10,3 @@ Docker-compose file for [gogs](http://gogs.io) server(a self-hosted git service)
 ```bash
 docker-compose -p gogs  up -d
 ```
-
-## Mysql authorization
-```yml
-MYSQL_DATABASE: gogs
-MYSQL_USER: gogs
-MYSQL_PASSWORD: gogs
-```
-
-## Show services
-
-```bash
-docker-compose -p gogs ps
-```
-
-## Look at the logs
-
-```bash
-# all logs
-docker-compose -p gogs logs
-
-# specific service
-docker-compose -p gogs logs mysql
-```
